@@ -1,0 +1,21 @@
+## API de Produtos com node.js
+
+- [x] instalar node.js no site
+- [x] criando o package.json npm init -y
+- [x] baixar o express npm install express
+- [x] criar o arquivo server.js importar o express no arquivo e subir servidor
+- [x] criar rota get no arquivo server.js para teste
+- [x] instalar o nodemon para fazer recarregamento automático npm install nodemon
+- [x] instalar o docker no projeto no site do docker para rodar o mongodb
+- [x] Instalar o mongodb rodar o docker pull mongo rodar o comando docker run --name mongodb -p 27017:27017 -d mongo rodar comando docker ps baixar o robo3t no site para conectar o mongodb
+- [x] rodar o docker start mongodb para rodar o mongodb
+- [x] baixar o ORM mongoose npm install mongoose
+- [x] importar o mongoose para se conectar com o mongodb 
+- [x] criar o model no projeto na pasta src/models/Project.js
+- [x] baixar o require-dir npm install require-dir para mapear a pasta models 
+- [x] refatorando a aplicação  criar arquivo routes.js para colocar as rotas da aplicação
+- [x] criar a pasta controller e o arquivo ProductController.js
+- [x] baixar o insomnia para testar a API 
+- [x] criar o crud  dentro do controller ProductController.js
+- [x] criando a paginação como mongoose paginate npm install mogoose-paginate no metodo index do ProductController.js
+- [x] adicionando cors para permitir acesso de outro dominio npm install cors
